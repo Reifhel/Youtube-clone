@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+
+    <link rel="stylesheet" href="./utils/css/style.css">
+
+    
+</head>
+<body>
+    
+    <header>
+
+        <div class="logo">
+            <img src="https://logopng.com.br/logos/youtube-48.png" alt="logo youtube">
+        </div>
+
+        <div class="search">
+            <form>
+                <input id="pesquisa" type="text" placeholder="Pesquisar">
+                <input type="submit" id="btnSearch"></input>
+            </form>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="video_principal">
+
+            <div class="video">
+                <iframe id="embed_video" width="885" height="498" src="https://www.youtube.com/embed/ycHVUvvOwzY" title="Maxwell Cat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="info_video">
+                <h1 id="titulo" class="titulo_video">Maxwell Cat</h1>
+                <br>
+            </div>
+
+        </div>
+
+        <div id="recomendados" class="recomendados">
+            <div class="recomendacao">
+                <img id="rec_1" class="img_recomendacao"  src="https://i.ytimg.com/vi/ycHVUvvOwzY/maxresdefault.jpg" alt="Maxwell Cat">
+                <h3 id="tit_1" class="titulo_recomendacao">Maxwell Cat</h3>
+                <p id="channel_1" class="canal">x</p>
+            </div>
+            <div class="recomendacao">
+                <img id="rec_2" class="img_recomendacao" src="https://i.ytimg.com/vi/ycHVUvvOwzY/maxresdefault.jpg" alt="Maxwell Cat">
+                <h3 id="tit_2" class="titulo_recomendacao">Maxwell Cat</h3>
+                <p id="channel_2" class="canal">x</p>
+            </div>
+            <div class="recomendacao">
+                <img id="rec_3" class="img_recomendacao"  src="https://i.ytimg.com/vi/ycHVUvvOwzY/maxresdefault.jpg" alt="Maxwell Cat">
+                <h3 id="tit_3" class="titulo_recomendacao">Maxwell Cat</h3>
+                <p id="channel_3" class="canal">x</p>
+            </div>
+            <div class="recomendacao">
+                <img id="rec_4" class="img_recomendacao"  src="https://i.ytimg.com/vi/ycHVUvvOwzY/maxresdefault.jpg" alt="Maxwell Cat">
+                <h3 id="tit_4" class="titulo_recomendacao">Maxwell Cat</h3>
+                <p id="channel_4" class="canal">x</p>
+            </div>
+        </div>
+
+    </main>
+    <script src="./utils/js/scripts.js"></script>
+</body>
+</html>

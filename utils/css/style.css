@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 0 5px #ccc;
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.search{
+    width: 70%;
+    margin-left: 20px;
+}
+
+.search input{
+    width: 70%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.search #btnSearch{
+    width: 5.5rem;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(225, 221, 221);
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
+#btnSearch:hover{
+    background-color: #ccc;
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.video_principal{
+    width: 75%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: black;
+    overflow: hidden;
+
+
+}
+.info_video{
+    text-align: left;
+}
+
+
+.recomendados{
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column
+}
+
+.recomendacao{
+    width: 15rem;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+    word-break: break-word;
+}
+
+.recomendacao .img_recomendacao{
+    width: 200px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recomendacao .img_recomendacao img{
+    width: 100%;
+    height: 100%;
+}
+
+.recomendacao h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.recomendacao p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(60, 59, 59); 
+}
